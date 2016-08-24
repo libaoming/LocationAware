@@ -12,6 +12,7 @@
 		9A0700AE1D6DAB09007D3E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0700AC1D6DAB09007D3E48 /* Main.storyboard */; };
 		9A0700B01D6DAB09007D3E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0700AF1D6DAB09007D3E48 /* Assets.xcassets */; };
 		9A0700B31D6DAB09007D3E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0700B11D6DAB09007D3E48 /* LaunchScreen.storyboard */; };
+		9A0700BC1D6DAB29007D3E48 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0700BB1D6DAB29007D3E48 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9A0700AF1D6DAB09007D3E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0700B21D6DAB09007D3E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A0700B41D6DAB09007D3E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0700BB1D6DAB29007D3E48 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0700BC1D6DAB29007D3E48 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				9A0700A71D6DAB09007D3E48 /* LocationAware */,
 				9A0700A61D6DAB09007D3E48 /* Products */,
+				9A0700BA1D6DAB29007D3E48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				9A0700B41D6DAB09007D3E48 /* Info.plist */,
 			);
 			path = LocationAware;
+			sourceTree = "<group>";
+		};
+		9A0700BA1D6DAB29007D3E48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A0700BB1D6DAB29007D3E48 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					9A0700A41D6DAB09007D3E48 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 42Y63ZWCJY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42Y63ZWCJY;
 				INFOPLIST_FILE = LocationAware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.libaoming.LocationAware;
@@ -270,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42Y63ZWCJY;
 				INFOPLIST_FILE = LocationAware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.libaoming.LocationAware;
